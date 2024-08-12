@@ -9,6 +9,7 @@ import 'package:db_shop/screens/registeration/login_screen.dart';
 import 'package:db_shop/screens/registeration/sign_up_screen.dart';
 import 'package:db_shop/services/firestore_database.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -22,7 +23,6 @@ void main() async {
 
   // await FirestoreDatabase.fetchCartProductList('r8QIyB8zbXdp7cEtEe9MILa7pdL2');
   
-
   runApp(const MyApp());
 }
 
